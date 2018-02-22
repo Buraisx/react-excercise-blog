@@ -1,10 +1,10 @@
 import React from 'react';
 
-const About = props => (
+const Food = props => (
 	<div>
-		yoyoyo
+		Food
 	</div>
 )
 
 
-export default About;
+export default Food;

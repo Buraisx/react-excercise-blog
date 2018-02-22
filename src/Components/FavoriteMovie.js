@@ -1,10 +1,10 @@
 import React from 'react';
 
-const About = props => (
+const Movie = props => (
 	<div>
-		yoyoyo
+		Movies
 	</div>
 )
 
 
-export default About;
+export default Movie;
