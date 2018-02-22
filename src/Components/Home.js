@@ -23,10 +23,18 @@ class Home extends Component{
 		})
 	}
 	render(){
+		if(this.state.poem){
+			return(
+				<div>
+					<h1>My fav shakespeare poem</h1>
+					{this.state.poem}
+				</div>
+			)
+		}
 		return(
 			<div>
 				<h1>My Fav shakespear poem</h1>
-				<p>{this.state.poem}</p>
+				<p>Loading</p>
 			</div>
 		);
 	}
